@@ -104,7 +104,7 @@ class LoginPage extends React.Component {
               />
             )}
           </div>
-          {error && <div className={'alert alert-danger'}>{error}</div>}
+          {error && <div className={'alert alert-danger'}>{error + ''}</div>}
         </form>
       </div>
     );
