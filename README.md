@@ -8,6 +8,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Run `REACT_APP_API_HOST=YOUR_API_HOST_URL yarn start` (e.g. `REACT_APP_API_HOST=http://localhost:5000 yarn start`)
 - Open [http://localhost:3000](http://localhost:3000) to view app in the browser.
 
+Note: If RESTful API ran from Visual Studio use https://localhost:5001
+
 ## Run on local machine with Docker
 
 - Run RESTful API service (e.g., using Docker `docker run -it --rm -p 5000:80 storytel:latest-linux`, see service documentation)
